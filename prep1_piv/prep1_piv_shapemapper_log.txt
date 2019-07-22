@@ -1,0 +1,453 @@
+
+################################################################################
+Started ShapeMapper v2.1.4 at 2019-04-24 11:32:38
+Running from directory: /home/uwvirongs/Documents/shapemapper_files_new
+args:  --nproc 14 --output-aligned --name prep1_piv --target amplicon_files/hpiv_amplicon.fasta --modified --folder trimmed_files/prep1_piv_trimmed/pos/ --untreated --folder trimmed_files/prep1_piv_trimmed/neg/ --denatured --folder trimmed_files/prep1_piv_trimmed/neg --overwrite
+Traceback (most recent call last):
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/cli.py", line 141, in <module>
+    run(sys.argv)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/cli.py", line 51, in run
+    pipeline, arg_dict = ap.construct(rest_args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 520, in construct
+    kw = parse_args(args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 340, in parse_args
+    store_args(sample, sample_args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 321, in store_args
+    R1, R2 = parse_paired_input_folder(f)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 406, in parse_paired_input_folder
+    raise RuntimeError(msg)
+RuntimeError: Error: no fastq reads found in folder "trimmed_files/prep1_piv_trimmed/neg"
+
+################################################################################
+Started ShapeMapper v2.1.4 at 2019-04-24 11:34:38
+Running from directory: /home/uwvirongs/Documents/shapemapper_files_new
+args:  --nproc 14 --output-aligned --name prep1_piv --target /home/uwvirongs/Documents/shapemapper_files_new/amplicon_files/hpiv_amplicon.fasta --modified --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/pos/ --untreated --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/neg/ --denatured --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/neg --overwrite
+Traceback (most recent call last):
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/cli.py", line 141, in <module>
+    run(sys.argv)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/cli.py", line 51, in run
+    pipeline, arg_dict = ap.construct(rest_args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 520, in construct
+    kw = parse_args(args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 340, in parse_args
+    store_args(sample, sample_args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 321, in store_args
+    R1, R2 = parse_paired_input_folder(f)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 406, in parse_paired_input_folder
+    raise RuntimeError(msg)
+RuntimeError: Error: no fastq reads found in folder "/home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/neg"
+
+################################################################################
+Started ShapeMapper v2.1.4 at 2019-04-24 11:36:33
+Running from directory: /home/uwvirongs/Documents/shapemapper_files_new
+args:  --nproc 14 --output-aligned --name prep1_piv --target /home/uwvirongs/Documents/shapemapper_files_new/amplicon_files/hpiv_amplicon.fasta --modified --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/pos/ --untreated --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/neg/ --denatured --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/neg --overwrite
+Traceback (most recent call last):
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/cli.py", line 141, in <module>
+    run(sys.argv)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/cli.py", line 51, in run
+    pipeline, arg_dict = ap.construct(rest_args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 520, in construct
+    kw = parse_args(args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 340, in parse_args
+    store_args(sample, sample_args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 321, in store_args
+    R1, R2 = parse_paired_input_folder(f)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 412, in parse_paired_input_folder
+    raise RuntimeError(msg)
+RuntimeError: Error: unable to identify paired read FASTQ files in folder "/home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/neg". Ensure that paired files contain underscore-separated R1 and R2 fields in the filename, and that their filenames are otherwise identical.
+
+################################################################################
+Started ShapeMapper v2.1.4 at 2019-04-24 11:37:53
+Running from directory: /home/uwvirongs/Documents/shapemapper_files_new
+args:  --nproc 14 --output-aligned --name prep1_piv --target /home/uwvirongs/Documents/shapemapper_files_new/amplicon_files/hpiv_amplicon.fasta --modified --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/pos/ --untreated --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/neg/ --denatured --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/dc --overwrite
+Traceback (most recent call last):
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/cli.py", line 141, in <module>
+    run(sys.argv)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/cli.py", line 51, in run
+    pipeline, arg_dict = ap.construct(rest_args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 520, in construct
+    kw = parse_args(args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 340, in parse_args
+    store_args(sample, sample_args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 321, in store_args
+    R1, R2 = parse_paired_input_folder(f)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 406, in parse_paired_input_folder
+    raise RuntimeError(msg)
+RuntimeError: Error: no fastq reads found in folder "/home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/pos/"
+
+################################################################################
+Started ShapeMapper v2.1.4 at 2019-04-24 11:38:14
+Running from directory: /home/uwvirongs/Documents/shapemapper_files_new
+args:  --nproc 14 --output-aligned --name prep1_piv --target /home/uwvirongs/Documents/shapemapper_files_new/amplicon_files/hpiv_amplicon.fasta --modified --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/pos/ --untreated --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/neg/ --denatured --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/dc --overwrite
+Traceback (most recent call last):
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/cli.py", line 141, in <module>
+    run(sys.argv)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/cli.py", line 51, in run
+    pipeline, arg_dict = ap.construct(rest_args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 520, in construct
+    kw = parse_args(args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 340, in parse_args
+    store_args(sample, sample_args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 321, in store_args
+    R1, R2 = parse_paired_input_folder(f)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 406, in parse_paired_input_folder
+    raise RuntimeError(msg)
+RuntimeError: Error: no fastq reads found in folder "/home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/pos/"
+
+################################################################################
+Started ShapeMapper v2.1.4 at 2019-04-24 11:38:17
+Running from directory: /home/uwvirongs/Documents/shapemapper_files_new
+args:  --nproc 14 --output-aligned --name prep1_piv --target /home/uwvirongs/Documents/shapemapper_files_new/amplicon_files/hpiv_amplicon.fasta --modified --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/pos/ --untreated --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/neg/ --denatured --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/dc --overwrite
+Traceback (most recent call last):
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/cli.py", line 141, in <module>
+    run(sys.argv)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/cli.py", line 51, in run
+    pipeline, arg_dict = ap.construct(rest_args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 520, in construct
+    kw = parse_args(args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 340, in parse_args
+    store_args(sample, sample_args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 321, in store_args
+    R1, R2 = parse_paired_input_folder(f)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 412, in parse_paired_input_folder
+    raise RuntimeError(msg)
+RuntimeError: Error: unable to identify paired read FASTQ files in folder "/home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/neg/". Ensure that paired files contain underscore-separated R1 and R2 fields in the filename, and that their filenames are otherwise identical.
+
+################################################################################
+Started ShapeMapper v2.1.4 at 2019-04-24 11:39:38
+Running from directory: /home/uwvirongs/Documents/shapemapper_files_new
+args:  --nproc 14 --output-aligned --name prep1_piv --target /home/uwvirongs/Documents/shapemapper_files_new/amplicon_files/hpiv_amplicon.fasta --modified --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/pos/ --untreated --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/neg/ --denatured --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/dc --overwrite
+Traceback (most recent call last):
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/cli.py", line 141, in <module>
+    run(sys.argv)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/cli.py", line 51, in run
+    pipeline, arg_dict = ap.construct(rest_args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 520, in construct
+    kw = parse_args(args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 340, in parse_args
+    store_args(sample, sample_args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 321, in store_args
+    R1, R2 = parse_paired_input_folder(f)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 412, in parse_paired_input_folder
+    raise RuntimeError(msg)
+RuntimeError: Error: unable to identify paired read FASTQ files in folder "/home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/neg/". Ensure that paired files contain underscore-separated R1 and R2 fields in the filename, and that their filenames are otherwise identical.
+
+################################################################################
+Started ShapeMapper v2.1.4 at 2019-04-24 11:40:33
+Running from directory: /home/uwvirongs/Documents/shapemapper_files_new
+args:  --nproc 14 --output-aligned --name prep1_piv --target /home/uwvirongs/Documents/shapemapper_files_new/amplicon_files/hpiv_amplicon.fasta --modified --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/pos/ --untreated --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/neg/ --denatured --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/dc --overwrite
+Traceback (most recent call last):
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/cli.py", line 141, in <module>
+    run(sys.argv)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/cli.py", line 51, in run
+    pipeline, arg_dict = ap.construct(rest_args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 520, in construct
+    kw = parse_args(args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 340, in parse_args
+    store_args(sample, sample_args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 321, in store_args
+    R1, R2 = parse_paired_input_folder(f)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 412, in parse_paired_input_folder
+    raise RuntimeError(msg)
+RuntimeError: Error: unable to identify paired read FASTQ files in folder "/home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/dc". Ensure that paired files contain underscore-separated R1 and R2 fields in the filename, and that their filenames are otherwise identical.
+
+################################################################################
+Started ShapeMapper v2.1.4 at 2019-04-24 11:40:55
+Running from directory: /home/uwvirongs/Documents/shapemapper_files_new
+args:  --nproc 14 --output-aligned --name prep1_piv --target /home/uwvirongs/Documents/shapemapper_files_new/amplicon_files/hpiv_amplicon.fasta --modified --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/pos/ --untreated --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/neg/ --denatured --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/dc --overwrite
+Traceback (most recent call last):
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/cli.py", line 141, in <module>
+    run(sys.argv)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/cli.py", line 51, in run
+    pipeline, arg_dict = ap.construct(rest_args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 520, in construct
+    kw = parse_args(args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 340, in parse_args
+    store_args(sample, sample_args)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 321, in store_args
+    R1, R2 = parse_paired_input_folder(f)
+  File "/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/python/pyshapemap/pipeline_arg_parser.py", line 412, in parse_paired_input_folder
+    raise RuntimeError(msg)
+RuntimeError: Error: unable to identify paired read FASTQ files in folder "/home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/pos/". Ensure that paired files contain underscore-separated R1 and R2 fields in the filename, and that their filenames are otherwise identical.
+
+################################################################################
+Started ShapeMapper v2.1.4 at 2019-04-24 11:41:10
+Running from directory: /home/uwvirongs/Documents/shapemapper_files_new
+args:  --nproc 14 --output-aligned --name prep1_piv --target /home/uwvirongs/Documents/shapemapper_files_new/amplicon_files/hpiv_amplicon.fasta --modified --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/pos/ --untreated --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/neg/ --denatured --folder /home/uwvirongs/Documents/shapemapper_files_new/trimmed_files/prep1_piv_trimmed/dc --overwrite
+Warning: no random primer length was specified, but at least one RNA is longer than a typical directed-primer amplicon. Use --random-primer-len to exclude mutations within primer binding regions.
+Created pipeline at 2019-04-24 11:41:10
+Running FastaFormatChecker at 2019-04-24 11:41:10 . . .
+. . . done at 2019-04-24 11:41:10
+Running BowtieIndexBuilder at 2019-04-24 11:41:10 . . .
+. . . done at 2019-04-24 11:41:10
+Running process group 3 at 2019-04-24 11:41:10 . . .
+  Including these components:
+    ProgressMonitor . . . started at 2019-04-24 11:41:10
+    QualityTrimmer1 . . . started at 2019-04-24 11:41:10
+    QualityTrimmer2 . . . started at 2019-04-24 11:41:10
+    Interleaver . . . started at 2019-04-24 11:41:10
+    Merger . . . started at 2019-04-24 11:41:10
+    Tab6Interleaver . . . started at 2019-04-24 11:41:10
+    BowtieAligner . . . started at 2019-04-24 11:41:10
+    SplitToFile1 . . . started at 2019-04-24 11:41:10
+    MutationParser_Modified . . . started at 2019-04-24 11:41:10
+    MutationCounter_Modified . . . started at 2019-04-24 11:41:10
+  /`````````````````````````````````````````````````````````````````````````````
+  |Merger (sample: Modified) output message: 
+  |----------------------------------------- 
+  | 
+  | java -Djava.library.path=/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/thirdparty/miniconda/opt/bbmap-37.78/jni/ -ea -Xmx1000m -Xmx1000m -cp /home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/thirdparty/miniconda/opt/bbmap-37.78/current/ jgi.BBMerge vstrict=t in=stdin out=stdout outu=stdout interleaved=t usejni=t t=12
+  | Executing jgi.BBMerge [vstrict=t, in=stdin, out=stdout, outu=stdout, interleaved=t, usejni=t, t=12]
+  | Version 37.78 [vstrict=t, in=stdin, out=stdout, outu=stdout, interleaved=t, usejni=t, t=12]
+  | 
+  | Revised arguments: [maxbad=4, margin=3, minqo=8, qualiters=2, ratiomode=t, flatmode=f, minentropy=52, minoverlap=12, minoverlap0=4, maxratio=0.05, ratiomargin=12, ratiooffset=0.5, ratiominoverlapreduction=4, efilter=2, pfilter=0.008, minsecondratio=0.16, minapproxoverlap=22, in=stdin, out=stdout, outu=stdout, interleaved=t, usejni=t, t=12]
+  | 
+  | Set INTERLEAVED to true
+  | Set threads to 12
+  | Writing mergable reads merged.
+  | Unspecified format for output stdout; defaulting to fastq.
+  | Unspecified format for output stdout; defaulting to fastq.
+  | Started output threads.
+  | Unspecified format for input stdin; defaulting to fastq.
+  | Total time: 80.248 seconds.
+  | 
+  | Pairs:               	119190
+  | Joined:              	107577   	90.257%
+  | Ambiguous:           	11387   	9.554%
+  | No Solution:         	226       	0.190%
+  | Too Short:           	0       	0.000%
+  | 
+  | Avg Insert:          	189.8
+  | Standard Deviation:  	78.4
+  | Mode:                	157
+  | 
+  | Insert range:        	35 - 555
+  | 90th percentile:     	292
+  | 75th percentile:     	239
+  | 50th percentile:     	184
+  | 25th percentile:     	132
+  | 10th percentile:     	93
+  \_____________________________________________________________________________
+  /`````````````````````````````````````````````````````````````````````````````
+  |BowtieAligner (sample: Modified) output message: 
+  |------------------------------------------------ 
+  | 
+  | 119190 reads; of these:
+  |   11613 (9.74%) were paired; of these:
+  |     9699 (83.52%) aligned concordantly 0 times
+  |     1792 (15.43%) aligned concordantly exactly 1 time
+  |     122 (1.05%) aligned concordantly >1 times
+  |     ----
+  |     9699 pairs aligned concordantly 0 times; of these:
+  |       738 (7.61%) aligned discordantly 1 time
+  |     ----
+  |     8961 pairs aligned 0 times concordantly or discordantly; of these:
+  |       17922 mates make up the pairs; of these:
+  |         16081 (89.73%) aligned 0 times
+  |         1604 (8.95%) aligned exactly 1 time
+  |         237 (1.32%) aligned >1 times
+  |   107577 (90.26%) were unpaired; of these:
+  |     18301 (17.01%) aligned 0 times
+  |     73666 (68.48%) aligned exactly 1 time
+  |     15610 (14.51%) aligned >1 times
+  | 73.71% overall alignment rate
+  \_____________________________________________________________________________
+. . . done at 2019-04-24 11:42:32
+Running process group 4 at 2019-04-24 11:42:32 . . .
+  Including these components:
+    ProgressMonitor . . . started at 2019-04-24 11:42:32
+    QualityTrimmer1 . . . started at 2019-04-24 11:42:32
+    QualityTrimmer2 . . . started at 2019-04-24 11:42:32
+    Interleaver . . . started at 2019-04-24 11:42:32
+    Merger . . . started at 2019-04-24 11:42:32
+    Tab6Interleaver . . . started at 2019-04-24 11:42:32
+    BowtieAligner . . . started at 2019-04-24 11:42:32
+    SplitToFile1 . . . started at 2019-04-24 11:42:32
+    MutationParser_Untreated . . . started at 2019-04-24 11:42:32
+    MutationCounter_Untreated . . . started at 2019-04-24 11:42:32
+  /`````````````````````````````````````````````````````````````````````````````
+  |Merger (sample: Untreated) output message: 
+  |------------------------------------------ 
+  | 
+  | java -Djava.library.path=/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/thirdparty/miniconda/opt/bbmap-37.78/jni/ -ea -Xmx1000m -Xmx1000m -cp /home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/thirdparty/miniconda/opt/bbmap-37.78/current/ jgi.BBMerge vstrict=t in=stdin out=stdout outu=stdout interleaved=t usejni=t t=12
+  | Executing jgi.BBMerge [vstrict=t, in=stdin, out=stdout, outu=stdout, interleaved=t, usejni=t, t=12]
+  | Version 37.78 [vstrict=t, in=stdin, out=stdout, outu=stdout, interleaved=t, usejni=t, t=12]
+  | 
+  | Revised arguments: [maxbad=4, margin=3, minqo=8, qualiters=2, ratiomode=t, flatmode=f, minentropy=52, minoverlap=12, minoverlap0=4, maxratio=0.05, ratiomargin=12, ratiooffset=0.5, ratiominoverlapreduction=4, efilter=2, pfilter=0.008, minsecondratio=0.16, minapproxoverlap=22, in=stdin, out=stdout, outu=stdout, interleaved=t, usejni=t, t=12]
+  | 
+  | Set INTERLEAVED to true
+  | Set threads to 12
+  | Writing mergable reads merged.
+  | Unspecified format for output stdout; defaulting to fastq.
+  | Unspecified format for output stdout; defaulting to fastq.
+  | Started output threads.
+  | Unspecified format for input stdin; defaulting to fastq.
+  | Total time: 112.750 seconds.
+  | 
+  | Pairs:               	174789
+  | Joined:              	159447   	91.223%
+  | Ambiguous:           	15035   	8.602%
+  | No Solution:         	307       	0.176%
+  | Too Short:           	0       	0.000%
+  | 
+  | Avg Insert:          	184.0
+  | Standard Deviation:  	80.7
+  | Mode:                	125
+  | 
+  | Insert range:        	35 - 576
+  | 90th percentile:     	291
+  | 75th percentile:     	236
+  | 50th percentile:     	176
+  | 25th percentile:     	123
+  | 10th percentile:     	85
+  \_____________________________________________________________________________
+  /`````````````````````````````````````````````````````````````````````````````
+  |BowtieAligner (sample: Untreated) output message: 
+  |------------------------------------------------- 
+  | 
+  | 174789 reads; of these:
+  |   15342 (8.78%) were paired; of these:
+  |     12712 (82.86%) aligned concordantly 0 times
+  |     2475 (16.13%) aligned concordantly exactly 1 time
+  |     155 (1.01%) aligned concordantly >1 times
+  |     ----
+  |     12712 pairs aligned concordantly 0 times; of these:
+  |       1240 (9.75%) aligned discordantly 1 time
+  |     ----
+  |     11472 pairs aligned 0 times concordantly or discordantly; of these:
+  |       22944 mates make up the pairs; of these:
+  |         20221 (88.13%) aligned 0 times
+  |         2439 (10.63%) aligned exactly 1 time
+  |         284 (1.24%) aligned >1 times
+  |   159447 (91.22%) were unpaired; of these:
+  |     34445 (21.60%) aligned 0 times
+  |     105961 (66.46%) aligned exactly 1 time
+  |     19041 (11.94%) aligned >1 times
+  | 71.25% overall alignment rate
+  \_____________________________________________________________________________
+. . . done at 2019-04-24 11:44:26
+Running process group 5 at 2019-04-24 11:44:26 . . .
+  Including these components:
+    ProgressMonitor . . . started at 2019-04-24 11:44:26
+    QualityTrimmer1 . . . started at 2019-04-24 11:44:26
+    QualityTrimmer2 . . . started at 2019-04-24 11:44:26
+    Interleaver . . . started at 2019-04-24 11:44:26
+    Merger . . . started at 2019-04-24 11:44:26
+    Tab6Interleaver . . . started at 2019-04-24 11:44:26
+    BowtieAligner . . . started at 2019-04-24 11:44:26
+    SplitToFile1 . . . started at 2019-04-24 11:44:26
+    MutationParser_Denatured . . . started at 2019-04-24 11:44:26
+    MutationCounter_Denatured . . . started at 2019-04-24 11:44:26
+  /`````````````````````````````````````````````````````````````````````````````
+  |Merger (sample: Denatured) output message: 
+  |------------------------------------------ 
+  | 
+  | java -Djava.library.path=/home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/thirdparty/miniconda/opt/bbmap-37.78/jni/ -ea -Xmx1000m -Xmx1000m -cp /home/uwvirongs/Documents/shapemapper2/shapemapper-2.1.4/internals/thirdparty/miniconda/opt/bbmap-37.78/current/ jgi.BBMerge vstrict=t in=stdin out=stdout outu=stdout interleaved=t usejni=t t=12
+  | Executing jgi.BBMerge [vstrict=t, in=stdin, out=stdout, outu=stdout, interleaved=t, usejni=t, t=12]
+  | Version 37.78 [vstrict=t, in=stdin, out=stdout, outu=stdout, interleaved=t, usejni=t, t=12]
+  | 
+  | Revised arguments: [maxbad=4, margin=3, minqo=8, qualiters=2, ratiomode=t, flatmode=f, minentropy=52, minoverlap=12, minoverlap0=4, maxratio=0.05, ratiomargin=12, ratiooffset=0.5, ratiominoverlapreduction=4, efilter=2, pfilter=0.008, minsecondratio=0.16, minapproxoverlap=22, in=stdin, out=stdout, outu=stdout, interleaved=t, usejni=t, t=12]
+  | 
+  | Set INTERLEAVED to true
+  | Set threads to 12
+  | Writing mergable reads merged.
+  | Unspecified format for output stdout; defaulting to fastq.
+  | Unspecified format for output stdout; defaulting to fastq.
+  | Started output threads.
+  | Unspecified format for input stdin; defaulting to fastq.
+  | Total time: 192.239 seconds.
+  | 
+  | Pairs:               	161298
+  | Joined:              	145102   	89.959%
+  | Ambiguous:           	15969   	9.900%
+  | No Solution:         	227       	0.141%
+  | Too Short:           	0       	0.000%
+  | 
+  | Avg Insert:          	182.6
+  | Standard Deviation:  	100.5
+  | Mode:                	107
+  | 
+  | Insert range:        	35 - 582
+  | 90th percentile:     	327
+  | 75th percentile:     	234
+  | 50th percentile:     	158
+  | 25th percentile:     	108
+  | 10th percentile:     	76
+  \_____________________________________________________________________________
+  /`````````````````````````````````````````````````````````````````````````````
+  |BowtieAligner (sample: Denatured) output message: 
+  |------------------------------------------------- 
+  | 
+  | 161298 reads; of these:
+  |   16196 (10.04%) were paired; of these:
+  |     10146 (62.65%) aligned concordantly 0 times
+  |     5971 (36.87%) aligned concordantly exactly 1 time
+  |     79 (0.49%) aligned concordantly >1 times
+  |     ----
+  |     10146 pairs aligned concordantly 0 times; of these:
+  |       792 (7.81%) aligned discordantly 1 time
+  |     ----
+  |     9354 pairs aligned 0 times concordantly or discordantly; of these:
+  |       18708 mates make up the pairs; of these:
+  |         15973 (85.38%) aligned 0 times
+  |         2576 (13.77%) aligned exactly 1 time
+  |         159 (0.85%) aligned >1 times
+  |   145102 (89.96%) were unpaired; of these:
+  |     2476 (1.71%) aligned 0 times
+  |     132152 (91.08%) aligned exactly 1 time
+  |     10474 (7.22%) aligned >1 times
+  | 89.61% overall alignment rate
+  \_____________________________________________________________________________
+. . . done at 2019-04-24 11:47:39
+Running CalcProfile at 2019-04-24 11:47:39 . . .
+. . . done at 2019-04-24 11:47:40
+Running NormProfile at 2019-04-24 11:47:40 . . .
+. . . done at 2019-04-24 11:47:40
+Running TabToShape at 2019-04-24 11:47:40 . . .
+. . . done at 2019-04-24 11:47:41
+Running RenderFigures at 2019-04-24 11:47:41 . . .
+/```````````````````````````````````````````````````````````````````````````````
+|RenderFigures (RNA: hpiv3_amplicon_from_s29) output message: 
+|------------------------------------------------------------ 
+| 
+| Quality control checks:
+| 
+| (See README.md for explanation)
+| 
+| Read depth check:
+| 73.0% (1255/1720) nucleotides meet the minimum read depth of 5000
+| FAIL: Read depths are too low for accurate reactivity profile creation.
+|       The modified sample is particulary low.
+|       Check alignment stats to see the amount of target sequence present
+|       in each sample. Better target enrichment or recovery and/or
+|       additional sequencing could help solve this problem.
+| 
+| Mutation rate check:
+| 66.6% (836/1255) nucleotides have positive mutation rates
+| above background
+| High background check:
+| 0.1% (1/1255) nucleotides have high background
+| mutation rates.
+| PASS: Not too many nucleotides with high background mutation rates.
+| 
+| Number highly reactive check:
+| 0.6% (8/1255) nucleotides show high apparent reactivity.
+| FAIL
+|       Possible causes:
+|        - DNA contamination
+|        - poor mixing of chemical reagents and RNA and/or poor
+|          reagent diffusion (if modifying in cells), resulting
+|          in low modification rates
+|        - expired reagents, resulting in low modification rates
+|        - poor reverse transcription conditions, resulting in
+|          low adduct read-through
+|        - extremely highly structured RNA
+| 
+\_______________________________________________________________________________
+. . . done at 2019-04-24 11:47:55
+Running RenderMappedDepths at 2019-04-24 11:47:55 . . .
+. . . done at 2019-04-24 11:47:57
+ShapeMapper run completed at 2019-04-24 11:47:57.
+WARNING: This RNA has a possible poor quality reactivity profile: hpiv3_amplicon_from_s29
+See quality control checks above for details.
+WARNING: no random primer length was specified, but at least one RNA is longer than a typical directed-primer amplicon. If analyzing a randomly primed experiment that was not subjected to a Nextera prep, use the --random-primer-len option to exclude mutations within primer binding regions.
