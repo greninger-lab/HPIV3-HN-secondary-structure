@@ -22,6 +22,7 @@ Two control reactions, a denaturing and no-reagent standard (DMSO), were perform
 The modified RNA was reverse transcribed with SuperScript II reverse transcriptase and 200 ng random nonamer primers to profile adduct-induced mutations. CDNA was subsequently purified with MicroSpin G-25 spin column prior to randomer workflow library prep. Second strand synthesis reactions transformed the modified cDNA into dsDNA and were spin column purified quantitated, and adjusted to a concentration of 0.2 ng/uL for Nextera tagmentation and indexing PCR. Size selection target capture and purification was executed with Agencourt AMpure XP beads at a 0.8:1.0 volumetric ratio of paramagnetic beads to sample library.
 
 #### Sequencing 
-After MaP and library construction, sequencing was performed on the MiSeq System
+After MaP and library construction, sequencing was performed on the Illumina MiSeq System
 
 ### In-silico 
+Shapemapper 2 (https://github.com/Weeks-UNC/shapemapper2) was run on a 16 core Mac Pro running Ubuntu. Reads were adapter trimmed using Cutadapt before being organized into folders (positive, denatured control, negative) for subsequent Shapemapper2 and Superfold analyses. Default settings were used for Shapemapper2 as well as Superfold. Shapemapper2 commands for each run are found as .sh files in their respective folders and follow the general syntax in `shapemapper_general_command.sh`. 
