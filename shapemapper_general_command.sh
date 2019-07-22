@@ -1,0 +1,1 @@
+./shapemapper --output-aligned --name <name> --target <amplicon_file> --modified --folder <folder with modified>  --untreated --folder <folder with untreated> --denatured --folder <folder with denatured>  --overwrite
