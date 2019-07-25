@@ -26,3 +26,5 @@ After MaP and library construction, NGS sequencing was performed on the Illumina
 
 ### In-silico 
 Shapemapper 2 (https://github.com/Weeks-UNC/shapemapper2) was run on a 16 core Mac Pro running Ubuntu. Reads were adapter trimmed using Cutadapt before being organized into folders (positive, denatured control, negative) for subsequent Shapemapper2 and Superfold analyses. Default settings were used for Shapemapper2 as well as Superfold. Shapemapper2 commands for each run are found as .sh files in their respective folders and follow the general syntax in `shapemapper_general_command.sh`. 
+
+![alt text](https://github.com/vpeddu/HPIV3-HN-secondary-structure/blob/master/prep_5_hpiv/results_prep5_hpiv_hpiv3_amplicon_from_s29.map_53a9/regions/Screen%20Shot%202019-07-25%20at%203.05.57%20PM.png)
