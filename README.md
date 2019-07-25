@@ -1,7 +1,7 @@
 # Characterization of the HPIV 3 HN gene RNA secondary structure 
 
 ## Project Summary 
-The HPIV-3 Hemaglutinin-neuraminidase (HN) is essential in viral release from cells by dissociating the mature virions from the neuraminic acid containing glycoproteins. Viral passage in cultural, although similar to replication in vivo, results in different nucleic acid mutations from replication. Selectuve 2'-hydroxyl acylation analyzed by primer extension and mutational profiling (SHAPE-MaP) permits accurate representation of RNA secondary structure at single nucleotide resolution. Here, we performed SHAPE chemistry on a clinical specimen from an indivdual infected with a high titer HPIV-3 to accurately depict paramyxivirus RNA architecture in vivo at the HN gene.
+The HPIV-3 Hemaglutinin-neuraminidase (HN) is essential in viral release from cells by dissociating the mature virions from the neuraminic acid containing glycoproteins. Viral passage in cultural, although similar to replication in vivo, results in different nucleic acid mutations from replication. Selective 2'-hydroxyl acylation analyzed by primer extension and mutational profiling (SHAPE-MaP) permits accurate representation of RNA secondary structure at single nucleotide resolution. Here, we performed SHAPE chemistry on a clinical specimen from an individual infected with a high titer HPIV-3 to accurately model paramyxivirus RNA architecture in vivo at the HN gene.
 
 ## Methods 
 ### Wet-lab
