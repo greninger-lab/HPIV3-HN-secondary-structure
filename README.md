@@ -1,4 +1,4 @@
-# Characterizing the HPIV 3 HN gene RNA secondary structure 
+# Characterization of the HPIV 3 HN gene RNA secondary structure 
 
 ## Project Summary 
 The HPIV3 Hemaglutinin-neuraminidase (HN) is essential in viral release from cells by dissociating the mature virions from the neuraminic acid containing glycoproteins. (need to fill this part in) 
