@@ -1,0 +1,25 @@
+
+
+
+###################################################
+#    _____                     ______    _     _  #
+#  /  ___|                     |  ___|  | |   | | #
+#  \ `--. _   _ _ __   ___ _ __| |_ ___ | | __| | #
+#   `--. \ | | | '_ \ / _ \ '__|  _/ _ \| |/ _` | #
+#  /\__/ / |_| | |_) |  __/ |  | || (_) | | (_| | #
+#  \____/ \__,_| .__/ \___|_|  \_| \___/|_|\__,_| #
+#              | |                                #
+#              |_|                                #
+#                                                 #
+#        Superfold ver. Alpha_22-Sept-2014        #
+#                                                 #
+#starting job: prep_6_hpiv_hpiv3_amplicon_from_s29.map_7790#
+#            Tue Sep 24 17:46:20 2019             #
+#                                                 #
+################################################### 
+
+# Job Submitted with following attributes:
+Namespace(SHAPEintercept=-0.6, SHAPEslope=1.8, allConstraints=[], differentialFile=None, differentialSlope=2.1, dsConstraints={0: [], 1: []}, foldStepSize=300, foldWindowSize=3000, mapFile='prep_6_hpiv_hpiv3_amplicon_from_s29.map', mapObj=<__main__.shapeMAP instance at 0x7f53bc1dab48>, maxPairingDist=600, name='prep_6_hpiv_hpiv3_amplicon_from_s29.map', noPVclient=True, np=2, partitionStepSize=100, partitionWindowSize=1200, pkRegion=None, safeName='prep_6_hpiv_hpiv3_amplicon_from_s29.map_7790', ssConstraints={0: []}, ssRegion=None, trimInterior=300) 
+
+running:>% partition partition_prep_6_hpiv_hpiv3_amplicon_from_s29.map_7790/prep_6_hpiv_hpiv3_amplicon_from_s29.map_7790_620_1720.seq partition_prep_6_hpiv_hpiv3_amplicon_from_s29.map_7790/prep_6_hpiv_hpiv3_amplicon_from_s29.map_7790_620_1720.pfs -sh partition_prep_6_hpiv_hpiv3_amplicon_from_s29.map_7790/prep_6_hpiv_hpiv3_amplicon_from_s29.map_7790_620_1720.shape -sm 1.8 -si -0.6 -md 600 -C partition_prep_6_hpiv_hpiv3_amplicon_from_s29.map_7790/prep_6_hpiv_hpiv3_amplicon_from_s29.map_7790_620_1720.const
+running:>% partition partition_prep_6_hpiv_hpiv3_amplicon_from_s29.map_7790/prep_6_hpiv_hpiv3_amplicon_from_s29.map_7790_1_1300.seq partition_prep_6_hpiv_hpiv3_amplicon_from_s29.map_7790/prep_6_hpiv_hpiv3_amplicon_from_s29.map_7790_1_1300.pfs -sh partition_prep_6_hpiv_hpiv3_amplicon_from_s29.map_7790/prep_6_hpiv_hpiv3_amplicon_from_s29.map_7790_1_1300.shape -sm 1.8 -si -0.6 -md 600 -C partition_prep_6_hpiv_hpiv3_amplicon_from_s29.map_7790/prep_6_hpiv_hpiv3_amplicon_from_s29.map_7790_1_1300.const
